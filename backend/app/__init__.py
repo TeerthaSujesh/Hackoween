@@ -1,0 +1,2 @@
+"""Trend Doctor application package."""
+

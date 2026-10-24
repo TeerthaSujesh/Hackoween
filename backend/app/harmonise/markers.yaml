@@ -1,0 +1,103 @@
+markers:
+  creatinine:
+    canonical_unit: "mg/dL"
+    display_name: "Serum Creatinine"
+    aliases:
+      - "creatinine"
+      - "serum creatinine"
+      - "s. creatinine"
+      - "cr"
+      - "scr"
+    reference_ranges:
+      M: [0.7, 1.3]
+      F: [0.5, 1.1]
+    biological_variation:
+      cvi: 4.5
+      cva: 2.5
+    rcv_percent: 14.26
+
+  egfr:
+    canonical_unit: "mL/min/1.73m2"
+    display_name: "Estimated GFR (CKD-EPI 2021)"
+    aliases:
+      - "egfr"
+      - "estimated gfr"
+      - "gfr"
+    reference_ranges:
+      M: [90.0, 150.0]
+      F: [90.0, 150.0]
+
+  hba1c:
+    canonical_unit: "%"
+    display_name: "Hemoglobin A1c"
+    aliases:
+      - "hba1c"
+      - "glycated hemoglobin"
+      - "a1c"
+    reference_ranges:
+      M: [4.0, 5.6]
+      F: [4.0, 5.6]
+    biological_variation:
+      cvi: 1.5
+      cva: 2.0
+    rcv_percent: 6.93
+
+  fasting_glucose:
+    canonical_unit: "mg/dL"
+    display_name: "Fasting Blood Glucose"
+    aliases:
+      - "fasting glucose"
+      - "fasting blood sugar"
+      - "fbs"
+      - "glucose fasting"
+    reference_ranges:
+      M: [70.0, 99.0]
+      F: [70.0, 99.0]
+    biological_variation:
+      cvi: 5.0
+      cva: 2.5
+    rcv_percent: 15.49
+
+  hb:
+    canonical_unit: "g/dL"
+    display_name: "Hemoglobin"
+    aliases:
+      - "hb"
+      - "hemoglobin"
+      - "hgb"
+    reference_ranges:
+      M: [13.0, 17.0]
+      F: [12.0, 15.0]
+    biological_variation:
+      cvi: 2.8
+      cva: 1.5
+    rcv_percent: 8.80
+
+  mcv:
+    canonical_unit: "fL"
+    display_name: "Mean Corpuscular Volume"
+    aliases:
+      - "mcv"
+      - "mean corpuscular volume"
+    reference_ranges:
+      M: [80.0, 100.0]
+      F: [80.0, 100.0]
+    biological_variation:
+      cvi: 1.3
+      cva: 1.2
+    rcv_percent: 4.90
+
+  rdw:
+    canonical_unit: "%"
+    display_name: "Red Cell Distribution Width"
+    aliases:
+      - "rdw"
+      - "rdw-cv"
+      - "red cell distribution width"
+    reference_ranges:
+      M: [11.5, 14.5]
+      F: [11.5, 14.5]
+    biological_variation:
+      cvi: 3.5
+      cva: 2.5
+    rcv_percent: 11.91
